@@ -1,13 +1,63 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.container {
+    width: 80%;
+    margin: 1rem auto;
+    padding:1rem;
+    border: 1px solid rgb(166, 86, 190);
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(156, 250, 245);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input{
+    display: block;
+    text-align: center;
+    margin: 1rem auto;
+    width: 300px;
+    height: 30px;
+}
+
+button{
+    padding:0.5rem 0.8rem;
+    border: 1px rgb(212, 40, 189) solid;
+    background-color: rgb(31, 35, 65);
+    color:white;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+ul{
+    padding: 0;
+}
+li{
+    list-style-type:none;
+    text-align: left;
+    background-color: white;
+    padding: auto 30px;
+}
+
+
+h2{
+    background-color: rgb(156, 250, 245);
+    color: black;
+    padding: 0.5rem;
+    width: 250px;
+    margin: 1px auto;
+    border-radius: 20px;
+}
+h4{
+    padding: 5px 15px;
+    margin: 0;
+    
+}
+
+.contactList{
+    background-color: rgb(31, 35, 65);
+    margin-top: 2rem;
+}
+
+.btnDelete{
+    background-color: red;
+    padding: 3px 6px;
+    margin: 0 100%;
+    transform: translateX(-24px);
 }
